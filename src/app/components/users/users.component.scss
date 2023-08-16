@@ -1,0 +1,11 @@
+.users-table {
+  margin: 30px 0;
+
+  &__row {
+    line-height: 34px;
+  }
+
+  &__sortable-header {
+    cursor: pointer;
+  }
+}

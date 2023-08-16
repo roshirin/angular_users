@@ -1,0 +1,25 @@
+<div class="container mt-5">
+  <h2>User Details</h2>
+
+  <ul *ngIf="user" class="users-list">
+    <li class="users-list__item">
+      <strong>Name:</strong> {{ user.name }}
+    </li>
+
+    <li class="users-list__item">
+      <strong>ID:</strong> {{ user.id }}
+    </li>
+
+    <li class="users-list__item">
+      <strong>Date:</strong> {{ user.date }}
+    </li>
+
+    <li class="users-list__item">
+      <strong>Permissions:</strong> {{ user.permissions.join(', ') }}
+    </li>
+  </ul>
+
+  <button routerLink="/users" class="btn py-2 btn-secondary">
+    Back to the List
+  </button>
+</div>

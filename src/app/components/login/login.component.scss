@@ -1,0 +1,23 @@
+.container {
+  max-width: 460px;
+}
+
+.login-form {
+  padding: 30px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  &__label {
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  width: 100%;
+}

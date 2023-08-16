@@ -1,0 +1,12 @@
+.header-container {
+  height: 80px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+
+  &:hover {
+    color: #666;
+  }
+}
